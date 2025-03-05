@@ -1,11 +1,11 @@
 import React from "react";
-import MyComponent2 from "./MyComponent2";
+import MyComponent5 from "./MyComponent5";
 function App() {
     
     return (
        <>
-            <MyComponent2 />
-        </>
+          <MyComponent5 />
+       </>
               
     );
 }
