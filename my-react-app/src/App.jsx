@@ -1,12 +1,11 @@
 import React from "react";
-import MyComponent5 from "./MyComponent5";
+import StopWatch from "./StopWatch";
 function App() {
     
     return (
        <>
-          <MyComponent5 />
+         <StopWatch />
        </>
-              
     );
 }
 
