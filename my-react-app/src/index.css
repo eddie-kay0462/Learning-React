@@ -1,45 +1,67 @@
 body{
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f0f0f0;
-}
-
-.color-picker-container{
-    display: flex;
-    flex-direction: column;
-    /* justify-content: center; */
-    align-items: center;
-    height: 100vh;
-}
-
-h1 {
-    color: #333;
-    margin-bottom: 20px;
-    font-size: 2rem;
-}
-
-.color-display{
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    margin-bottom: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: background-color 0.25s;
+    height: 100vh;
+    background-color: #ece5e5;
+    flex-direction: column;
 }
 
-.color-display p{
-    color: white;
-    font-size: 1.5rem;
+.stopwatch {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-input[type="color"]{
-    width: 100px;
-    height: 50px;
+.display {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #804a4a;
+    font-family: monospace;
+    text-align: center;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.start-btn, .stop-btn, .reset-btn {
+    padding: 10px 20px;
     border: none;
     border-radius: 5px;
-    margin-bottom: 20px;
     cursor: pointer;
+    background-color: #007bff;
 }
+
+.start-btn{
+    background-color: green;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.stop-btn{
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+.reset-btn{
+    background-color: yellow;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
